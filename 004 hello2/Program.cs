@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _004_hello2
 {
@@ -10,6 +6,15 @@ namespace _004_hello2
     {
         static void Main(string[] args)
         {
+            string name = args[1];
+
+            Console.WriteLine("Witaj, " + name);
+
+            foreach (var item in args)
+            {
+                Console.WriteLine("Witaj " + item);
+
+            }
         }
     }
 }
